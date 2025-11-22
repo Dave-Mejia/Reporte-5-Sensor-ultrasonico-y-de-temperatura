@@ -107,7 +107,10 @@ void loop()
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Libreria%20DHT.png?raw=true)
 
 6. Ir al esquema de simulación, dar clic al icono "+ (add new part)", buscar el sensor HCSR04 y agregar
+
+
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Add%20new%20part.png?raw=true)
+![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Add%20new%20part%202.png?raw=true)
 
 8. Buscar el sensor HCSR04 y agregar
 9. Repetir el paso anterior buscar el sensor DHT22 y agregar 
