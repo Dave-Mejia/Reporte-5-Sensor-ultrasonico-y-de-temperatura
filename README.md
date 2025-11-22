@@ -2,10 +2,10 @@
 
 Programación de un ESP32 con un sensor ultrasónico HC-SR04 un sensor de temperaura DHT22 y una pantalla LCD 16x2(I2C)
 ## Introducción
-## Descripción
+### Descripción
 Utilizaremos l plataforma WOKWI para simular la adquisición de datos de distancia mediante un sensor ultrasónico HC-SR04, un sensor de temperaura DHT22 y la programación del mismo en un microcontrolador ESP32, los datos se mostrarán en una pantalla LCD
 
-## Material Necesario
+### Material Necesario
 Para realizar esta practica necesitas lo siguiente
 
 a. Plataforma WOKWI
