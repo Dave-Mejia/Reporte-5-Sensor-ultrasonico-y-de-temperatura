@@ -107,19 +107,17 @@ void loop()
 8. Ir al esquema de simulacón, dar clic al icono "+ (add new part)", buscar la pantalla LCD 16x2(I2C)
    
 9. Colocar los sensores y la pantalla lcd sobre el esquema de simulación y conectar como indica la figura de abajo
-![](
-
-
+![](<img width="817" height="527" alt="image" src="https://github.com/user-attachments/assets/0f56525b-abe7-4530-86f1-aeb58065c6e9" />)
 
 ### Operación
-9. Iniciar simulador dando clic en el icono "play"
-10. Visualizar los datos en el monitor serial.
+10. Iniciar simulador dando clic en el icono "play"
+11. Visualizar los datos en el monitor serial.
 
 ## Resultados
 Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
-![](https://github.com/Dave-Mejia/Reporte-4-ESP32-con-sensor-ultrasonico/blob/main/resultado%20sensor%20ultrasonico%203.png?raw=true)
-![](https://github.com/Dave-Mejia/Reporte-4-ESP32-con-sensor-ultrasonico/blob/main/resultado%20sensor%20ultrasonico%202.png?raw=true)
-![](https://github.com/Dave-Mejia/Reporte-4-ESP32-con-sensor-ultrasonico/blob/main/resultado%20sensor%20ultrasonico%201.png?raw=true)
+![](
+![](
+![](
 
 ## Créditos
 Ralizado por el Ingeniero David Mejía
