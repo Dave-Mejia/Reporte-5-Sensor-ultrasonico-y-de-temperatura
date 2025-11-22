@@ -8,8 +8,8 @@ Utilizaremos l plataforma WOKWI para simular la adquisición de datos de distanc
 ## Material Necesario
 Para realizar esta practica necesitas lo siguiente
 
-Plataforma WOKWI
-Tarjeta ESP 32
+-Plataforma WOKWI
+-Tarjeta ESP 32
 Sensor ultrasónico HC-SR04
 Sensor de temperaura DHT22
 Pantalla LCD 16x2(I2C)
