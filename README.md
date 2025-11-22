@@ -125,7 +125,7 @@ void loop()
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22,%20sensor%20HC-SR-04%20y%20pantalla%20LCD.png?raw=true)
 
 ### Operación
-12. Iniciar simulador dando clic en el icono "start simulation"![]
+12. Iniciar simulador dando clic en el icono "start simulation"
 
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/play.png?raw=true)
 
