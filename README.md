@@ -19,7 +19,7 @@ d. Sensor de temperaura DHT22
 e. Pantalla LCD 16x2(I2C)
 
 ## Instrucciones
-### PREVIO
+### Previo
 1. Abrir la plataforma WOKWI.
 
 ### Preparación
