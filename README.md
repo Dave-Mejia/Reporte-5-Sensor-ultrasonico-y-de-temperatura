@@ -106,17 +106,18 @@ void loop()
 5. Ir a la pestaña "Library manager" haer clic sobre el icon "+", buscar la libreria "DHT sensor library for ESPx" y agregarla
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Libreria%20DHT.png?raw=true)
 
-6. Ir al esquema de simulación, dar clic al icono "+ (add new part)", buscar el sensor HCSR04 y agregar
+6. Ir al esquema de simulación, dar clic al icono "+ (add new part)"
 
 
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Add%20new%20part.png?raw=true)
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Add%20new%20part%202.png?raw=true)
 
-8. Buscar el sensor HCSR04 y agregar
-9. Repetir el paso anterior buscar el sensor DHT22 y agregar 
-10. DE igual forma buscar la pantalla LCD 16x2(I2C) y agregar
+8. Buscar la placa ESP32 y agregar
+9. Buscar el sensor DHT22 y agregar
+10. Repetir el paso anterior buscar el sensor HCSR04 y agregar 
+11. DE igual forma buscar la pantalla LCD 16x2(I2C) y agregar
    
-11. Colocar los sensores y la pantalla lcd sobre el esquema de simulación y conectar como indica la figura de abajo
+12. Conectar circuito como indica la figura de abajo
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22,%20sensor%20HC-SR-04%20y%20pantalla%20LCD.png?raw=true)
 
 ### Operación
