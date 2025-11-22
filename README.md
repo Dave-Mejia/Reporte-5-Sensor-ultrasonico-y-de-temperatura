@@ -1,4 +1,28 @@
-# Reporte-5-Sensor-ultrasonico-y-de-temperatura
+# Reporte 5 Tarjeta ESP32 con sensor ultrasonico y de temperatura
+
+Programación de un ESP32 con un sensor ultrasónico HC-SR04 un sensor de temperaura DHT22 y una pantalla LCD 16x2(I2C)
+## Introducción
+## Descripción
+Utilizaremos l plataforma WOKWI para simular la adquisición de datos de distancia mediante un sensor ultrasónico HC-SR04, un sensor de temperaura DHT22 y la programación del mismo en un microcontrolador ESP32, los datos se mostrarán en una pantalla LCD
+
+## Material Necesario
+Para realizar esta practica necesitas lo siguiente
+
+Plataforma WOKWI
+Tarjeta ESP 32
+Sensor ultrasónico HC-SR04
+Sensor de temperaura DHT22
+Pantalla LCD 16x2(I2C)
+
+## Instrucciones
+### PREVIO
+1. Abrir la plataforma WOKWI.
+
+### Preparación
+3. Ir a la pestaña de sketch.ino y borrar el codigo e programación predeterminado
+4. Abrir la terminal de programación y colocar la siguente programación:
+
+```
 #include "DHTesp.h"
 #include <LiquidCrystal_I2C.h>
 #define I2C_ADDR    0x27
@@ -48,13 +72,13 @@ void loop()
 
 
   lcd.clear();
-  lcd.setCursor(0, 0);
+  lcd.setCursor(1, 0);
   lcd.print("Diplomado AIyM");
-  lcd.setCursor(2, 1);
+  lcd.setCursor(3, 1);
   lcd.print("22 Nov 25");
   delay(1500);
   lcd.clear();
-  lcd.setCursor(0, 1);
+  lcd.setCursor(0, 0);
   lcd.print("Ing.David Mejia");
   delay(1500);
   lcd.clear();
@@ -69,6 +93,33 @@ void loop()
   lcd.print("Temp: " + String(data.temperature, 1) + "\xDF"+"C  ");
   lcd.setCursor(0, 1);
   lcd.print(" Humidity: " + String(data.humidity, 1) + "% ");
-  delay(1500);
- 
+  delay(1500); 
 }
+```
+
+4. Ir a la pestaña "Library manager" haer clic sobre el icon "+", buscar la libreria "HCSR04 ultrasonic sensor" y agregarla
+![](https://github.com/Dave-Mejia/Reporte-4-ESP32-con-sensor-ultrasonico/blob/main/libreria%20sensor%20ultrasonico.png?raw=true)
+5. 4. Ir a la pestaña "Library manager" haer clic sobre el icon "+", buscar la libreria "DHT sensor library for ESPx" y agregarla
+
+6. Ir al esquema de simulacón, dar clic al icono "+ (add new part)", buscar el sensor HCSR04 y agregar
+7. Ir al esquema de simulacón, dar clic al icono "+ (add new part)", buscar el sensor DHT22 y agregar 
+8. Ir al esquema de simulacón, dar clic al icono "+ (add new part)", buscar la pantalla LCD 16x2(I2C)
+   
+9. Colocar los sensores y la pantalla lcd sobre el esquema de simulación y conectar como indica la figura de abajo
+![](<img width="677" height="492" alt="image" src="https://github.com/user-attachments/assets/a009c621-b046-4059-84e8-fea7b40dcb05" />)
+
+
+
+### Operación
+9. Iniciar simulador dando clic en el icono "play"
+10. Visualizar los datos en el monitor serial.
+
+## Resultados
+Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
+![](https://github.com/Dave-Mejia/Reporte-4-ESP32-con-sensor-ultrasonico/blob/main/resultado%20sensor%20ultrasonico%203.png?raw=true)
+![](https://github.com/Dave-Mejia/Reporte-4-ESP32-con-sensor-ultrasonico/blob/main/resultado%20sensor%20ultrasonico%202.png?raw=true)
+![](https://github.com/Dave-Mejia/Reporte-4-ESP32-con-sensor-ultrasonico/blob/main/resultado%20sensor%20ultrasonico%201.png?raw=true)
+
+## Créditos
+Ralizado por el Ingeniero David Mejía
+
