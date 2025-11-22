@@ -117,7 +117,7 @@ void loop()
 10. DE igual forma buscar la pantalla LCD 16x2(I2C) y agregar
    
 11. Colocar los sensores y la pantalla lcd sobre el esquema de simulación y conectar como indica la figura de abajo
-![](
+![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22,%20sensor%20HC-SR-04%20y%20pantalla%20LCD.png?raw=true)
 
 ### Operación
 10. Iniciar simulador dando clic en el icono "play"
