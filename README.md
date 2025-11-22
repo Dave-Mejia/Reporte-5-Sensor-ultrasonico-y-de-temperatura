@@ -11,9 +11,12 @@ Para realizar esta practica necesitas lo siguiente
 a. Plataforma WOKWI
 
 b. Tarjeta ESP 32
-Sensor ultrasónico HC-SR04
-Sensor de temperaura DHT22
-Pantalla LCD 16x2(I2C)
+
+c. Sensor ultrasónico HC-SR04
+
+d. Sensor de temperaura DHT22
+
+e. Pantalla LCD 16x2(I2C)
 
 ## Instrucciones
 ### PREVIO
