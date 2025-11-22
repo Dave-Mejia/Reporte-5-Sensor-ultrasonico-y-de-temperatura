@@ -23,8 +23,8 @@ e. Pantalla LCD 16x2(I2C)
 1. Abrir la plataforma WOKWI.
 
 ### Preparación
-3. Ir a la pestaña de sketch.ino y borrar el codigo e programación predeterminado
-4. Abrir la terminal de programación y colocar la siguente programación:
+2. Ir a la pestaña de sketch.ino y borrar el codigo e programación predeterminado
+3. Abrir la terminal de programación y colocar la siguente programación:
 
 ```
 #include "DHTesp.h"
@@ -104,32 +104,33 @@ void loop()
 4. Ir a la pestaña "Library manager" haer clic sobre el icon "+", buscar la libreria "HCSR04 ultrasonic sensor" y agregarla
 ![](https://github.com/Dave-Mejia/Reporte-4-ESP32-con-sensor-ultrasonico/blob/main/libreria%20sensor%20ultrasonico.png?raw=true)
 
-6. Ir a la pestaña "Library manager" haer clic sobre el icon "+", buscar la libreria "DHT sensor library for ESPx" y agregarla
+5. Ir a la pestaña "Library manager" haer clic sobre el icon "+", buscar la libreria "DHT sensor library for ESPx" y agregarla
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Libreria%20DHT.png?raw=true)
 
-7. De igual manera agregar la librería "LiquidCrystal I2C" para la pantalla LCD
+6. De igual manera agregar la librería "LiquidCrystal I2C" para la pantalla LCD
+![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Libreria%20Pantalla%20LCD%20Liquid%20cristal.png?raw=true)
   
 7. Ir al esquema de simulación, dar clic al icono "+ (add new part)"
 
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Add%20new%20part.png?raw=true)
 
-7. Buscar el sensor DHT22 y agregar
+8. Buscar el sensor DHT22 y agregar
    
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Add%20new%20part%202.png?raw=true)
 
-8. Repetir el paso anterior buscar el sensor HCSR04 y agregar 
-9. De igual forma buscar la pantalla LCD 16x2(I2C) y agregar
+9. Repetir el paso anterior buscar el sensor HCSR04 y agregar 
+10. De igual forma buscar la pantalla LCD 16x2(I2C) y agregar
    
-10. Conectar circuito como indica la figura de abajo
+11. Conectar circuito como indica la figura de abajo
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22,%20sensor%20HC-SR-04%20y%20pantalla%20LCD.png?raw=true)
 
 ### Operación
-11. Iniciar simulador dando clic en el icono "start simulation"![]
+12. Iniciar simulador dando clic en el icono "start simulation"![]
 
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/play.png?raw=true)
 
 
-12. Visualizar los datos en el monitor serial.
+13. Visualizar los datos en el monitor serial.
 
 ## Resultados
 Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
