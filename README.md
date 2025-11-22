@@ -116,7 +116,7 @@ void loop()
 ## Resultados
 Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/resultado%20sensor%20ultrasonico%20y%20temperatura%201.png?raw=true)
-![](
+![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/resultado%20sensor%20ultrasonico%20y%20temperatura%202.png?raw=true)
 ![](
 
 ## Créditos
