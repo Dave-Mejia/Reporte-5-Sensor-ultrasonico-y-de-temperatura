@@ -126,7 +126,7 @@ void loop()
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/play.png?raw=true)
 
 
-14. Visualizar los datos en el monitor serial.
+12. Visualizar los datos en el monitor serial.
 
 ## Resultados
 Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
