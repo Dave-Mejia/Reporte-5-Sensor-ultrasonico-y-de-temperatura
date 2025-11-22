@@ -115,7 +115,7 @@ void loop()
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Add%20new%20part%202.png?raw=true)
 
 8. Repetir el paso anterior buscar el sensor HCSR04 y agregar 
-9. DE igual forma buscar la pantalla LCD 16x2(I2C) y agregar
+9. De igual forma buscar la pantalla LCD 16x2(I2C) y agregar
    
 10. Conectar circuito como indica la figura de abajo
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22,%20sensor%20HC-SR-04%20y%20pantalla%20LCD.png?raw=true)
@@ -124,6 +124,8 @@ void loop()
 11. Iniciar simulador dando clic en el icono "start simulation"![]
 
 ![](https://github.com/Dave-Mejia/Reporte-5-Sensor-ultrasonico-y-de-temperatura/blob/main/play.png?raw=true)
+
+
 14. Visualizar los datos en el monitor serial.
 
 ## Resultados
